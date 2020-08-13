@@ -1,0 +1,13 @@
+Buenas, le saluda el grupo 7 de la clase de diseño de software de la universidad ESPOL.
+Hemos encontrado un error de patrones de diseño en su repositorio y nuestra tarea era modificar el proyecto a tal punto de que siga dichos patrones.
+A continuación,lo corregido:
+
+
+Se implemento el patrón Facthory method para hacer de una forma más sencilla la creación de varios alimentos,
+para que de este modo se pueda facilitar la escalabilidad del sistema, permitiendo así un constructor virtual. 
+
+Se decidió implementar este patrón en el apartado de lunch, debido a que en algún futuro se puede añadir otra característica en este caso añadir un postre, 
+para que de este modo se facilite el uso de la clase 
+y de este modo dejar abierta la posibilidad si en algún futuro se desea agregar otro postre adicional.  
+
+Se decidió usar este patrón para la separación de los componentes de un taller y especificar la unión de todas las características del taller en general. 
